@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css.css">
+    <title>Trang Chủ</title>
+</head>
+<script>
+    function hienthi() {
+        link = document.getElementById("link-anh").value;
+        document.getElementById('anh').src = link;
+    }
+</script>
+<body>
+    <div>
+        <button type="button"><a href="cvdthinhchunhat.html">Tính chu Vi Diện Tích Hình Chu nhật</a></button>
+        <button><a href="trungbinh.html">Tính Trung Bình 3 môn</a></button>
+        <button><a href="solonnhat.html">Tìm ước chung lớn nhất, Bội chung nhỏ nhất</a> </button>
+        <button> <a href="timnam.html">Tìm năm nhuần</a> </button>
+        <br>
+    </div>
+    <br>
+<div>
+    <input type="text" id="link-anh" placeholder="Nhập Link ảnh">
+    <img src="" alt="" id="anh">
+    <br>
+    <button onclick="hienthi()">Hiện thị ảnh </button>
+    
+</div>
+    
+</body>
+
+</html>
